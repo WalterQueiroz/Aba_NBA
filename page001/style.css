@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=League+Gothic&family=Rammetto+One&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=League+Gothic&display=swap');
+
+
+
+
+
+
+*{
+    font-family: 'Playfair Display',sans-serif,serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    min-height: 100vh;
+    background:url(img/man-1837119_1280.jpg) no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.65)),(rgba(0,0,0,0.65));
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+ul{
+    margin-right: 50px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+ul li a:hover{
+    color: #e99210;
+    transition: 0.5s ease;
+    border-bottom: 1px solid #fdfdfd;
+    font-size: 18px;
+}
+
+.logo{
+    margin-left:50px;
+}
+
+.logo h2{
+    font-size: 35px;
+    color: #fff;
+}
+
+.hero-section{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-section h1{
+    font-size: 80px;
+    font-family: 'League Gothic';
+    color: #fff;
+    letter-spacing: 1;
+    margin-bottom: 25px;
+
+}
+
+.hero-section span{
+    color: #9b1330ee;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Rammetto One';
+}
+
+.hero-section p{
+    font-family: 'Rammetto One';
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-section button{
+    margin-top:50px;
+    width: 100px;
+    height: 45px;
+    background-color: #1446a1;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Rammetto One';
+
+}
+
+.bnt1:hover{
+    font-size: 16px;
+    color: #bdaf9b;  
+    background-color: #9b1330ee; 
+}
+.bnt2:hover{
+    font-size: 15px;
+    color: #bdaf9b;
+    background-color: #9b1330ee;   
+}
+
+.hero-section .lett{
+    font-family: 'League Gothic';
+    color: #fdfeff;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
